@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "retinacase": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "retinacase",
+    "password": "",
+    "name": "retinacase",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "XY",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "x": {
+            "type": "number",
+            "required": false,
+            "default": 0
+        },
+        "y": {
+            "type": "number",
+            "required": false,
+            "default": 0
+        },
+        "mouse": {
+            "type": "string",
+            "required": false,
+            "default": "false"
+        },
+        "type": {
+            "type": "string",
+            "required": false,
+            "default": "false"
+        },
+        "datetime": {
+            "type": "date",
+            "defaultFn": "now"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

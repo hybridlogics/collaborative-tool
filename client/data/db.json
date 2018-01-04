@@ -1,0 +1,265 @@
+{
+    "radiator": [
+        {
+            "name": "Eco Std Alum",
+            "make": "PAKISTAN",
+            "unit": "per_section",
+            "type": "",
+            "price": 1480,
+            "size": ""
+        },
+        {
+            "name": "Eco Curve Alum",
+            "make": "PAKISTAN",
+            "unit": "per_section",
+            "type": "",
+            "price": 1580,
+            "size": ""
+        },
+        {
+            "name": "Eco Av 1500",
+            "make": "PAKISTAN",
+            "unit": "per_section",
+            "type": "",
+            "price": 3700,
+            "size": ""
+        },
+        {
+            "name": "Tuttotondo On",
+            "make": "ITALY",
+            "unit": "per_section",
+            "type": "",
+            "price": 2300,
+            "size": ""
+        },
+        {
+            "name": "Tuttotondo Play 1500",
+            "make": "ITALY",
+            "unit": "per_section",
+            "type": "",
+            "price": 7300,
+            "size": ""
+        },
+        {
+            "name": "Dubal 60",
+            "make": "SPAIN",
+            "unit": "per_section",
+            "type": "",
+            "price": 2150,
+            "size": ""
+        },
+        {
+            "name": "Dubal 80",
+            "make": "SPAIN",
+            "unit": "per_section",
+            "type": "",
+            "price": 2900,
+            "size": ""
+        }
+    ],
+    "boiler": [
+        {
+            "name": "Radiant Boiler",
+            "make": "ITALY",
+            "unit": "per_unit",
+            "type": "",
+            "price": 97000,
+            "size": "24 kw"
+        },
+        {
+            "name": "Roca Victoria",
+            "make": "SPAIN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 103500,
+            "size": "24 kw"
+        },
+        {
+            "name": "Roca Lura",
+            "make": "SPAIN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 120200,
+            "size": "20 kw"
+        },
+        {
+            "name": "Roca Lura",
+            "make": "SPAIN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 165000,
+            "size": "35 kw"
+        },
+        {
+            "name": "Aequator Neobit Plus",
+            "make": "SPAIN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 97000,
+            "size": "24 kw"
+        },
+        {
+            "name": "Aequator Novamax",
+            "make": "SPAIN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 128000,
+            "size": "31 kw"
+        },
+        {
+            "name": "UNIGAS",
+            "make": "PAKISTAN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 97000,
+            "size": "24 kw"
+        },
+        {
+            "name": "UNIGAS",
+            "make": "PAKISTAN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 110000,
+            "size": "28 kw"
+        }
+    ],
+    "towel": [
+        {
+            "name": "Towel warmer white",
+            "make": "ITALY",
+            "unit": "per_unit",
+            "type": "Imass",
+            "price": 12500,
+            "size": "800x500"
+        },
+        {
+            "name": "Towel warmer white",
+            "make": "ITALY",
+            "unit": "per_unit",
+            "type": "Imass",
+            "price": 12500,
+            "size": "1200x500"
+        },
+        {
+            "name": "Towel warmer white",
+            "make": "ITALY",
+            "unit": "per_unit",
+            "type": "Caleido",
+            "price": 15900,
+            "size": "800x500"
+        },
+        {
+            "name": "Towel warmer white",
+            "make": "ITALY",
+            "unit": "per_unit",
+            "type": "Caleido",
+            "price": 23400,
+            "size": "1200x500"
+        }
+    ],
+    "valve": [
+        {
+            "name": "Radiator valve",
+            "make": "Eco",
+            "unit": "per_unit",
+            "type": "",
+            "price": 585,
+            "size": ""
+        },
+        {
+            "name": "Radiator valve",
+            "make": "TURKEY",
+            "unit": "per_unit",
+            "type": "1",
+            "price": 780,
+            "size": ""
+        },
+        {
+            "name": "Radiator valve",
+            "make": "TURKEY",
+            "unit": "per_unit",
+            "type": "2",
+            "price": 980,
+            "size": ""
+        },
+        {
+            "name": "Radiator valve",
+            "make": "ITALY",
+            "unit": "per_unit",
+            "type": "",
+            "price": 1000,
+            "size": ""
+        },
+        {
+            "name": "Airvent Giacomini",
+            "make": "ITALY",
+            "unit": "per_unit",
+            "type": "Automatic",
+            "price": 930,
+            "size": ""
+        },
+        {
+            "name": "Radiator vavle Giacomini",
+            "make": "ITALY",
+            "unit": "per_unit",
+            "type": "Thermostatic",
+            "price": 2700,
+            "size": ""
+        }
+    ],
+    "thermostate": [
+        {
+            "name": "TX-200 thermostate",
+            "make": "Eco",
+            "unit": "per_unit",
+            "type": "Programable",
+            "price": 585,
+            "size": ""
+        },
+        {
+            "name": "TD-200 thermostate",
+            "make": "TURKEY",
+            "unit": "per_unit",
+            "type": "Digital",
+            "price": 780,
+            "size": ""
+        }
+    ],
+    "geyser": [
+        {
+            "name": "UNI GAS",
+            "make": "PAKISTAN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 12600,
+            "size": "10-ltr"
+        },
+        {
+            "name": "UNI GAS",
+            "make": "PAKISTAN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 17400,
+            "size": "16-ltr"
+        },
+        {
+            "name": "UNI GAS",
+            "make": "PAKISTAN",
+            "unit": "per_unit",
+            "type": "",
+            "price": 39800,
+            "size": "32-ltr"
+        }
+    ],
+    "rooms": [
+        {
+            "name": "Bedroom"
+        }, {
+            "name": "Kitchen"
+        }, {
+            "name": "Dining"
+        }, {
+            "name": "Bathroom"
+        }
+    ]
+}

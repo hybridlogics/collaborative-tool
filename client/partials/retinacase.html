@@ -1,0 +1,40 @@
+<section class="container" style="margin-top:25px">
+    <div class="row">
+        <section class="col-md-10 col-md-offset-1">
+            <canvas ng-if="imageType=='image'" width="900" height="500" id="canvas" canvas-directive></canvas>
+            <video ng-if="imageType=='video'" width="900" height="500" controls class="videoshow" ng-click="pauseOrPlay(imageLink)"> 
+                <source src={{videoId(imageLink)}}.webm type=video/webm> 
+                <source src={{videoId(imageLink)}}.ogv type=video/ogg> 
+                <source src={{videoId(imageLink)}}.mp4 type=video/mp4>
+                <source src={{videoId(imageLink)}}.3gp type=video/3gp>
+            </video>
+        </section>
+        <section class="col-md-1">
+        </section>
+    </div>
+    <div class="row">
+        <section class="col-md-3 col-sm-6 col-xs-6 col-md-offset-1">
+            <button href class="unselectanchor" ng-click="pubprv('private')">
+                <p class="unselect" ng-class="{tabselected: tab == 'private'}">Private View&nbsp;</p>
+            </button>
+            <button href class="unselectanchor" ng-click="pubprv('public')" ng-disabled="imageType=='video'">
+                <p class="unselect" ng-class="{tabselected: tab == 'public'}">Public View</p>
+            </button>
+        </section>
+        <section class="col-md-2 col-sm-6 col-xs-6 col-md-offset-3 text-left" style="margin-top:10px">
+            <color-picker ng-model="penColor" options="colorOptions"></color-picker>
+        </section>
+        <section class="col-md-2 col-sm-6 col-xs-6 text-left">
+            <button class="icon-buttons" ng-class="{selected:pen && tab == 'public'}" ng-click="draw()" ng-disabled="tab == 'private'"><i class="drawicons fa fa-pencil fa-3x" ng-class="{drawiconsselected: tab == 'public'}"></i></button>
+            <button class="icon-buttons" ng-class="{selected:eraser && tab == 'public'}" ng-click="erase()" ng-disabled="tab == 'private'"><i class="drawicons fa fa-eraser fa-3x" ng-class="{drawiconsselected: tab == 'public'}"></i></button>
+        </section>
+    </div>
+</section>
+
+<div bc-flickity="{{flickityOptions}}" id="flickityId">
+    <figure class="carousel-cell" data-ng-repeat="img in imageArray">
+        <a class="image-select" ng-click="setBackgroundImage(img.src,img.thumb,img.type)">
+                <img data-ng-src="{{img.thumb}}">
+            </a>
+    </figure>
+</div>
